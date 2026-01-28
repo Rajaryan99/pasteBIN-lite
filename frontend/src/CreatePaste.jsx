@@ -6,7 +6,7 @@ export default function CreatePaste() {
     const [link, setLink] = useState("");
 
     const submit = async () => {
-        const res = await fetch("http://localhost:5000/paste", {
+        const res = await fetch("https://pastebin-lite-backend-tulb.onrender.com/paste", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ content: text }),
