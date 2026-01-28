@@ -1,5 +1,5 @@
 import { useState } from "react";
-import './CreatePaste.css'
+import "./CreatePaste.css"
 
 export default function CreatePaste() {
     const [text, setText] = useState("");
