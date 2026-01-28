@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import CreatePaste from "./CreatePaste";
-import ViewPaste from "./ViewPaste";
+import CreatePaste from "./components/CreatePaste.jsx";
+import ViewPaste from "./components/ViewPaste.jsx"
 
 function App() {
   return (
