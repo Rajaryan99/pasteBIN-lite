@@ -22,7 +22,7 @@ app.post("/paste", (req, res) => {
         views: 0,
     };
 
-    res.json({ url: `http://localhost:5173/paste/${id}` });
+    res.json({ url: `https://pastebin-lite-frontend-n167.onrender.com/${id}` });
 });
 
 
